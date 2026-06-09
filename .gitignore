@@ -13,3 +13,6 @@ android/app/debug.keystore
 ios/.symlinks
 ios/Flutter/flutter_export_environment.sh
 ios/Flutter/Generated.xcconfig
+
+.claude/
+
