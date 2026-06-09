@@ -1,0 +1,56 @@
+name: fma_compaction_pro
+description: FMA Intelligent Compaction Analyzer Pro - نظام الدمك الذكي
+publish_to: 'none'
+version: 5.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # GPS & Sensors
+  geolocator: ^11.0.0
+  flutter_compass: ^0.8.0
+  permission_handler: ^11.3.0
+
+  # Maps
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+
+  # Export
+  excel: ^4.0.2
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  path_provider: ^2.1.2
+  share_plus: ^9.0.0
+
+  # UI & Charts
+  fl_chart: ^0.68.0
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  connectivity_plus: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/fonts/
